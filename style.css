@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 106px;
+    width: 400px;
+    text-align: center;
+}
+.offer-header {
+    font-size: 24px;
+    color: #ff5c8a;
+    margin-bottom: 20px;
+}
+.offer-box {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-left: -72px;
+    margin-right: -72px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #fdfdfd;
+    cursor: pointer;
+}
+.offer-discount {
+    height: 70px;
+    width: 52px;
+    background-color: #ff5c8a;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.offer-box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.offer-box.selected {
+    border: 2px solid #ff5c8a;
+}
+
+.offer-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.offer-subtext {
+    font-size: 12px;
+    color: #ff5c8a;
+    font-weight: bold;
+    margin-top: -41px;
+  padding-bottom: 27px;
+  margin-left: 208px;
+}
+.pumper{
+    font-size: 12px;
+    color: #ff5c8a;
+    font-weight: bold;
+}
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.summary {
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 20px;
+padding-bottom: 20px;
+margin-right: -33px;
+margin-left: -31px;
+}
+.free-delivery {
+   
+    font-size: 12px;
+    color: #ff5c8a;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: -56px;
+}
+.total-price {
+
+    font-size: 18px;
+    margin-top: 10px;
+}
+.add-to-cart-btn {
+    background-color: #ff5c8a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+.underlined{
+    text-decoration-line: line-through;
+    color: #888;
+   
+    margin-left: 169px;
+}
+.add-to-cart-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.powered-by {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+}
+.hidden {
+    display: none;
+}
+input[type="radio"] {
+/* Default styles for radio buttons */
+opacity: 1; /* Ensure the radio button is not transparent */
+position: relative; /* Make sure the radio button is positioned correctly */
+margin-right: 5px; /* Add some spacing if needed */
+}
+
+/* Optional: Style the checked state for better visibility */
+input[type="radio"]:checked {
+accent-color: #ff5c8a; /* Change color to match the design */
+}
